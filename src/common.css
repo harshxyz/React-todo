@@ -1,0 +1,109 @@
+.Head {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to left, #ff0303, #ff004a, #f5007d, #d200aa, #993ccb);
+}
+
+.Head img{
+    width : 70px;
+    height: 70px;
+    opacity: 0.98;
+}
+.p{
+    color:wheat;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    vertical-align: 20px;
+    display: inline-flex;
+    margin-left: 10px;
+}
+.Card {
+    box-shadow: 0 4px 8px 0 rgba(230, 34, 8, 0.486);
+    transition: 0.3s;
+    background-image:linear-gradient(to left, #ec8484, #eb7597, #d87aaa, #ce73bd, #bc7cdf);
+
+    width: 800px;
+    margin-left: 250px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    
+
+  }
+  .Card:hover {
+    box-shadow: 0 20px 25px 0 rgba(0,0,0,0.2);
+  }
+.Card p{
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 40px;
+    color: pink;
+    margin: 10px;
+}
+.Card2 {
+    box-shadow: 0 4px 8px 0 rgba(230, 34, 8, 0.486);
+    transition: 0.3s;
+    background-image:linear-gradient(to left, #ec8484, #eb7597, #d87aaa, #ce73bd, #bc7cdf);
+
+    width: 800px;
+    margin-left: 250px;
+    margin-top:0px;
+    align-content: center;
+
+  }
+  .Card2:hover {
+    box-shadow: 0 20px 25px 0 rgba(0,0,0,0.2);
+  }
+  .Image{
+      height: 30px;
+      width: 30px;
+      border: 2px solid pink;
+      border-radius: 100%;
+ 
+      vertical-align: -10px;
+  }
+  .Text{
+      align-self: center;
+      height: 30px;
+      width:300px;
+      border: 2px solid palevioletred;
+      margin-top:10px;
+      margin-left: 10px;
+      margin-right:5px;
+      margin-bottom:10px;
+      color:darkslategrey;
+      font-size: 20px;
+      font-family: monospace;
+      background-image: linear-gradient(to left, #d69393, #d695a7, #e7a2c6, #eb91da, #ae96bb);
+
+
+  }
+  .Text:focus{
+      outline: none;
+      border: 2px solid pink;
+  }
+.Card3{
+    box-shadow: 0 4px 8px 0 rgba(230, 34, 8, 0.486);
+    transition: 0.3s;
+    max-width: 800px;
+    overflow:hidden;
+    width: 800px;
+    margin-left: 250px;
+    margin-top:15px;
+    align-self: center;
+    color:pink;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+
+}
+.Card3:hover {
+    box-shadow: 0 20px 25px 0 rgba(0,0,0,0.2);
+  }
+.Delete{
+      height: 30px;
+      width:30px;
+      float: right;
+      margin-right: 25px;
+  }
